@@ -13,18 +13,22 @@
 
   <div class="page-wrapper">
     <!--HEADER-->
-<section class="header-section">
-        <div class="header" id="home">
+<div id="wrapper">
+        <div class="header" id="header">
           <!--<img id="header-img" src="./images/Bakery-logo.jpg" alt="header image">-->
 
         <!--NAV-->
+        <div id="header-img">
+          <img src=".\images\logo.png" alt="">
+        </div>
+              
 
-            <nav class="nav-bar">
+            <nav id="nav-bar">
               <a href="#home" class="nav-link">Home</a>
               <a href="#about" class="nav-link">About Us</a>
               <a href="#contact" class="nav-link">Contact</a>
             </nav>
-</section>
+          </div>
 
     <!--MAIN-->
 
@@ -39,19 +43,24 @@ Are you a Vegan? We propose a glutten-free and sugar free Cakes and candies to m
 
 Our perfect dessert sauces are made off fresh fruits and nuts. Also you can pick a traditional icing like buttercream. Decorated with marzipan, piped borders, or candied our cakes will make your party unforgettable!
       </p>
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/1jFbyGvyAAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        <video src="https://www.youtube.com/watch?v=1jFbyGvyAAE" autoplay poster="posterimage.jpg">
+      <div id="flexbox">
+        <img src=".\images\cake2.jpg" alt="">
+          <img src=".\images\cake3.jpg" alt="">
+      </div>
+      <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/1jFbyGvyAAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <video  src="https://www.youtube.com/watch?v=1jFbyGvyAAE" autoplay poster="posterimage.jpg">
 
         </video>
       </iframe>
 
     </div>
+
     <div class="contact" id="contact">
       <h3>Stay in touch !</h3>
-      <form class="" action="index.html" method="post" action="https://www.freecodecamp.com/email-submit">
+      <form id="form"  action="https://www.freecodecamp.com/email-submit">
         <label for="email">Enter your email:</label>
-        <input  type="email" id="email" name="email" placeholder="youremail@mail.com">
-        <input id="submit" type="submit" type="text" name="SubmitEmail" value="Submit">
+        <input  type="email" required id="email" name="email" placeholder="youremail@mail.com">
+        <input action="index.html" method="post" id="submit" type="submit" type="text" name="SubmitEmail" value="Submit">
       </form>
       <p id="copyright">
         A perfect project of both
