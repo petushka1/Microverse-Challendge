@@ -1,4 +1,51 @@
 .header-section{
     background-image: url(../images/logo.jpg);
     background-repeat:no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-position: center;
+}
+body{
+  text-align: center;
+  font-family: arial;
+  line-height: 1.8;
+  margin: 0;
+}
+.nav-bar{
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  color: white;
+}
+.nav-bar a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#about{
+  font-family: arial;
+  line-height: 2em;
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+h3{
+  padding-top: 10px;
+}
+
+#contact{
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#copyrigh{
+  font-size: 0.1em;
+  padding-top: 20px;
+  text-decoration: none;
 }
